@@ -25,7 +25,7 @@ SECRET_KEY = 'l268hc4m=oeza$bkza@wgeeso37u5xlzqzi(s#oo%nkit*2!9#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'www.cjxh616.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.cjxh616.com']
 
 
 # Application definition
@@ -82,10 +82,6 @@ DATABASES = {
         'PASSWORD': '0575cjxh',
         'HOST': '127.0.0.1',
         'PORT': '3306',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-            'charset':'utf8'
-        }
     }
 }
 
